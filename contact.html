@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Let's build something great together</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- 1. NAVIGATION -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <span class="logo-code">&lt;/&gt;</span> Zeeshan
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <a href="#contact" class="btn btn-primary nav-btn">Hire Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO INTRO & STATS GRID -->
+    <section class="section-padding" style="padding-top: 140px; padding-bottom: 3rem;">
+        <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
+            <span class="badge-label" style="background-color: rgba(6, 182, 200, 0.1); color: var(--accent); border-color: rgba(6, 182, 200, 0.2);"><span class="dot" style="background-color: var(--accent);"></span> AVAILABLE FOR PROJECTS</span>
+            <h1 class="portfolio-title" style="margin: 1.5rem auto; font-size: 3.5rem;">
+                Let's build something <br> <span class="text-primary">great together</span>
+            </h1>
+            <p class="section-desc" style="margin-bottom: 3rem; font-size: 1.1rem;">
+                Have a project idea, need a WordPress developer, or just want to say hello? I'd love to hear from you. Fill in the form below or reach out directly â€” I respond within 24 hours.
+            </p>
+            
+            <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 1rem 2rem; background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 9999px;">
+                <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-muted); font-size: 0.9rem;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>10+ Projects</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-muted); font-size: 0.9rem;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <span>24h Response</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. MAIN CONTACT AREA -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Left: Contact Form -->
+                <div class="contact-form-wrapper">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        <h2 style="font-size: 1.5rem; margin: 0;">Send a message</h2>
+                    </div>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem;">Fill out the form and I'll be in touch shortly.</p>
+
+                    <style>
+                        button[data-fs-submit-btn]:disabled { cursor: not-allowed; opacity: 0.8; }
+                        button[data-fs-submit-btn]:disabled .submit-text { visibility: hidden; }
+                        button[data-fs-submit-btn]:disabled .loading-spinner { display: block !important; }
+                        .spinner_aj0A{transform-origin:center;animation:spinner_OqPv .75s linear infinite}@keyframes spinner_OqPv{100%{transform:rotate(360deg)}}
+                    </style>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="fullName">FULL NAME *</label>
+                                <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Jane Doe" required data-fs-field>
+                                <span data-fs-error="fullName" style="color:#ef4444; font-size:0.8rem; display:block; margin-top:0.25rem;"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="email">EMAIL ADDRESS *</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="jane@company.com" required data-fs-field>
+                                <span data-fs-error="email" style="color:#ef4444; font-size:0.8rem; display:block; margin-top:0.25rem;"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="projectType"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 0.25rem; vertical-align: text-bottom;"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg> PROJECT TYPE</label>
+                                <select id="projectType" name="projectType" class="form-control" style="appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill=%22none%22 stroke=%22%239ca3af%22 stroke-width=%222%22 viewBox=%220 0 24 24%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M6 9l6 6 6-6%22/></svg>'); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1em;" data-fs-field>
+                                    <option value="" disabled selected>Select a service...</option>
+                                    <option value="WordPress Development">WordPress Development</option>
+                                    <option value="Plugin Development">Plugin Development</option>
+                                    <option value="PHP Backend">PHP Backend Development</option>
+                                    <option value="Frontend Design">Frontend Design & Build</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <span data-fs-error="projectType" style="color:#ef4444; font-size:0.8rem; display:block; margin-top:0.25rem;"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="budget"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 0.25rem; vertical-align: text-bottom;"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg> BUDGET RANGE</label>
+                                <select id="budget" name="budget" class="form-control" style="appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill=%22none%22 stroke=%22%239ca3af%22 stroke-width=%222%22 viewBox=%220 0 24 24%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M6 9l6 6 6-6%22/></svg>'); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1em;" data-fs-field>
+                                    <option value="" disabled selected>Select budget...</option>
+                                    <option value="$10-$100">$10 - $100</option>
+                                    <option value="$100-$500">$100 - $500</option>
+                                    <option value="$500-$1000">$500 - $1000</option>
+                                </select>
+                                <span data-fs-error="budget" style="color:#ef4444; font-size:0.8rem; display:block; margin-top:0.25rem;"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="timeline"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 0.25rem; vertical-align: text-bottom;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg> DESIRED TIMELINE</label>
+                            <select id="timeline" name="timeline" class="form-control" style="appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill=%22none%22 stroke=%22%239ca3af%22 stroke-width=%222%22 viewBox=%220 0 24 24%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M6 9l6 6 6-6%22/></svg>'); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1em;" data-fs-field>
+                                <option value="" disabled selected>Select a timeline...</option>
+                                <option value="Asap">As soon as possible</option>
+                                <option value="1 month">Within 1 month</option>
+                                <option value="1-3 months">1-3 months</option>
+                                <option value="Flexible">Flexible</option>
+                            </select>
+                            <span data-fs-error="timeline" style="color:#ef4444; font-size:0.8rem; display:block; margin-top:0.25rem;"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="details">PROJECT DETAILS *</label>
+                            <textarea id="details" name="details" class="form-control" rows="5" placeholder="Tell me about your project â€” what you need, your goals, technical requirements, and anything else relevant..." required data-fs-field></textarea>
+                            <span data-fs-error="details" style="color:#ef4444; font-size:0.8rem; display:block; margin-top:0.25rem;"></span>
+                            <div style="text-align: right; color: var(--text-muted); font-size: 0.75rem; margin-top: 0.5rem;">0 chars</div>
+                        </div>
+
+                        <button type="submit" data-fs-submit-btn class="btn btn-primary" style="width: 100%; justify-content: center; padding: 1rem; font-size: 1rem; margin-top: 1rem; position: relative;">
+                            <span class="submit-text">Send Message <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 0.5rem; vertical-align: text-bottom;"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></span>
+                            <span class="loading-spinner" style="display: none; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);">
+                                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z" class="spinner_aj0A"/></svg>
+                            </span>
+                        </button>
+                        <div data-fs-success style="display: none; padding: 1.5rem; background: rgba(16, 185, 129, 0.1); color: #10b981; border: 1px solid rgba(16,185,129,0.3); border-radius: var(--border-radius-md); margin-top: 1rem; text-align: center;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: block; margin: 0 auto 0.5rem auto;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            <strong>Message Sent!</strong><br>
+                            Thank you for reaching out. I'll get back to you shortly.
+                        </div>
+                        <div data-fs-error style="display: none; padding: 1rem; background: rgba(239, 68, 68, 0.1); color: #ef4444; border: 1px solid rgba(239,68,68,0.3); border-radius: var(--border-radius-md); margin-top: 1rem; text-align: center;"></div>
+                    </form>
+                </div>
+
+                <!-- Right: Availability Sidebar -->
+                <div class="availability-sidebar">
+
+
+                    <div class="direct-contact-section" style="margin-top: 2rem;">
+                        <h4 style="font-size: 0.85rem; color: var(--text-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1rem;">DIRECT CONTACT</h4>
+                        
+                        <a href="mailto:fareedzeeshan868@gmail.com" class="direct-contact-card">
+                            <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></div>
+                            <div>
+                                <span class="contact-label">EMAIL</span>
+                                <span class="contact-value">fareedzeeshan868@gmail.com</span>
+                                <span class="contact-desc">Best for project inquiries & detailed briefs</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/muhammad-zeeshan-8a1a9b373/" class="direct-contact-card" target="_blank">
+                            <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></div>
+                            <div>
+                                <span class="contact-label">LINKEDIN</span>
+                                <span class="contact-value">linkedin.com/in/muhammad-zeeshan-8a1a9b373</span>
+                                <span class="contact-desc">Professional background & endorsements</span>
+                            </div>
+                        </a>
+                        
+                        <a href="tel:+923281538269" class="direct-contact-card">
+                            <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></div>
+                            <div>
+                                <span class="contact-label">MOBILE</span>
+                                <span class="contact-value">+92 3281538269</span>
+                                <span class="contact-desc">For urgent technical inquiries</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FAQ ACCORDION -->
+    <section class="section-padding" style="background-color: var(--bg-main);">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 4rem;">
+                <span class="badge-label">FAQ</span>
+                <h2 class="section-title">Common <span class="text-primary">questions answered</span></h2>
+                <p class="section-desc" style="max-width: 600px; margin: 0 auto;">Quick answers to help you decide whether we're a good fit.</p>
+            </div>
+            
+            <div class="faq-accordion" style="max-width: 800px; margin: 0 auto;">
+                <details class="faq-item" open>
+                    <summary class="faq-summary">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="color: var(--text-muted); font-family: monospace; font-size: 0.9rem;">01</span>
+                            What type of projects do you work on?
+                        </div>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Custom WordPress design and development, PHP customization, and modern frontend interfaces. I specialize in building tailored themes from scratch and developing plugins to extend functionality exactly how you need it.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary class="faq-summary">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="color: var(--text-muted); font-family: monospace; font-size: 0.9rem;">02</span>
+                            How long does a typical website project take?
+                        </div>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-content">
+                        <p>A standard 5-page custom WordPress website typically takes 3 to 4 weeks from discovery to launch. More complex applications or e-commerce builds generally require 6 to 8 weeks depending on the scope and requirements.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-summary">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="color: var(--text-muted); font-family: monospace; font-size: 0.9rem;">03</span>
+                            Do you offer website maintenance after delivery?
+                        </div>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Yes. Every project includes 30 days of complimentary post-launch support. Beyond that, I offer ongoing monthly retainer packages that cover updates, security monitoring, backups, and regular performance optimization.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-summary">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="color: var(--text-muted); font-family: monospace; font-size: 0.9rem;">04</span>
+                            What is your payment structure?
+                        </div>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-content">
+                        <p>For most projects, I require a 50% deposit upfront to secure your spot in my schedule. The remaining 50% is tied to project milestones or final delivery. Larger projects can be broken down into three or four milestone payments.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary class="faq-summary">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="color: var(--text-muted); font-family: monospace; font-size: 0.9rem;">05</span>
+                            Can you work with my existing WordPress site?
+                        </div>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Yes, I frequently take over existing WordPress sites for performance optimization, plugin development, or major refactoring. I will conduct a full technical audit first to ensure the existing codebase is viable to work on.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary class="faq-summary">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <span style="color: var(--text-muted); font-family: monospace; font-size: 0.9rem;">06</span>
+                            Do you work with international clients?
+                        </div>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Absolutely. I work with clients globally across all time zones. We utilize async communication tools like Slack, Notion, and email, along with scheduled check-in calls to ensure smooth collaboration regardless of geography.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FINAL CALL TO ACTION BANNER -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="cta-banner-large" style="background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); border-radius: var(--border-radius-xl); padding: 5rem 2rem; text-align: center; color: white;">
+                <span class="badge-label" style="background-color: rgba(255,255,255,0.2); color: white; border: none;">LET'S TALK</span>
+                <h2 style="font-size: 3rem; margin: 1.5rem 0; letter-spacing: -0.03em;">Ready to start your project?</h2>
+                <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 3rem auto; opacity: 0.9;">Have an idea? Let's turn it into a fast, scalable, and beautifully crafted web experience together.</p>
+                <div class="cta-buttons" style="justify-content: center;">
+                    <a href="#contact" class="btn btn-primary" style="background-color: white; color: var(--primary);">Send a Message <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 0.5rem;"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></a>
+                    <a href="services.html" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: white;">View Services &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-code">&lt;/&gt;</span> Zeeshan
+                </a>
+                <p>WordPress & PHP developer crafting high-performance plugins, custom themes, and polished frontend interfaces.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/zeeshan-2004" class="social-icon" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/muhammad-zeeshan-8a1a9b373/" class="social-icon" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    <a href="mailto:fareedzeeshan868@gmail.com" class="social-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4 style="color: var(--text-muted); font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1.5rem;">NAVIGATION</h4>
+                <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1rem;">
+                    <li><a href="index.html" style="color: var(--text-main); text-decoration: none; font-size: 0.95rem;">Home</a></li>
+                    <li><a href="services.html" style="color: var(--text-main); text-decoration: none; font-size: 0.95rem;">Services</a></li>
+                    <li><a href="portfolio.html" style="color: var(--text-main); text-decoration: none; font-size: 0.95rem;">Portfolio</a></li>
+                    <li><a href="about.html" style="color: var(--text-main); text-decoration: none; font-size: 0.95rem;">About</a></li>
+                    <li><a href="#contact" style="color: var(--text-main); text-decoration: none; font-size: 0.95rem;">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4 style="color: var(--text-muted); font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1.5rem;">GET IN TOUCH</h4>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">Available for freelance projects and full-time opportunities.</p>
+                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                    <a href="mailto:fareedzeeshan868@gmail.com" style="color: var(--primary); text-decoration: none; font-size: 0.95rem;">fareedzeeshan868@gmail.com &nearr;</a>
+                    <span style="color: var(--text-main); font-size: 0.95rem;">Faisalabad, Punjab, Pakistan</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Zeeshan All rights reserved.</p>
+                <p>Designed & Built with Passion</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var form = e.target;
+            var btn = form.querySelector('button[type="submit"]');
+            var successDiv = document.querySelector('[data-fs-success]');
+            var errorDiv = document.querySelector('[data-fs-error]');
+            
+            // Set loading state
+            btn.disabled = true;
+            errorDiv.style.display = 'none';
+            
+            var data = new FormData(form);
+            fetch('https://formspree.io/f/xvzjajql', {
+                method: 'POST',
+                body: data,
+                headers: { 'Accept': 'application/json' }
+            }).then(function(response) {
+                if (response.ok) {
+                    // Show success message and reset form, but keep it visible
+                    successDiv.style.display = 'block';
+                    form.reset();
+                    btn.disabled = false;
+                    
+                    // Hide success message automatically after 6 seconds
+                    setTimeout(function() {
+                        successDiv.style.display = 'none';
+                    }, 6000);
+                } else {
+                    response.json().then(function(data) {
+                        if (Object.hasOwn(data, 'errors')) {
+                            errorDiv.innerHTML = data.errors.map(function(err) { return err.message; }).join(', ');
+                        } else {
+                            errorDiv.innerHTML = 'Oops! There was a problem submitting your form';
+                        }
+                        errorDiv.style.display = 'block';
+                        btn.disabled = false;
+                    });
+                }
+            }).catch(function(error) {
+                errorDiv.innerHTML = 'Oops! There was a problem submitting your form';
+                errorDiv.style.display = 'block';
+                btn.disabled = false;
+            });
+        });
+    </script>
+</body>
+</html>
+
