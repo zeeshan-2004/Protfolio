@@ -427,6 +427,16 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.03);
 }
 
+.card-detail-link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Makes entire card clickable as an a-tag */
+}
+
 
 .project-content {
     padding: 1.5rem;
@@ -469,6 +479,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary);
     display: inline-flex;
     align-items: center;
+    position: relative;
+    z-index: 2; /* Keeps the live site link clickable above the card link */
     gap: 0.5rem;
 }
 
