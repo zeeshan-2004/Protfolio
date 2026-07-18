@@ -427,15 +427,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.03);
 }
 
-.view-project-link::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10; /* Covers the whole card so it's all clickable */
-}
 
 .project-content {
     padding: 1.5rem;
