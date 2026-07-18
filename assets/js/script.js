@@ -1,4 +1,21 @@
 const projectsData = {
+    "mahad": {
+        title: "Mahad International Traders B2B Export Website",
+        desc: "Designed and developed the complete website for Mahad International Traders, a Pakistan-based export company supplying basmati rice, pink salt, table salt, and industrial salt to international buyers. The goal was to create a credible, professional B2B web presence that converts international wholesale visitors into quote requests.",
+        client: "Mahad International Traders",
+        category: "B2B Export",
+        url: "mahadinternationaltraders.com",
+        image: "assets/images/mahad-hero.png",
+        stack: ["WordPress", "Elementor Pro", "PHP", "On-page SEO"],
+        scope: [
+            "Full custom design and build using WordPress and Elementor Pro",
+            "Product catalogue with 5 export categories and dedicated product pages",
+            "Trust signals section — NTN H124110, FCCI Member, ISO Standards",
+            "Quote request flow with form and WhatsApp direct contact button",
+            "Global supply chain and target market sections for buyer confidence",
+            "Google PageSpeed results: Performance 97, Accessibility 95, Best Practices 100, SEO 92"
+        ]
+    },
     "techosolution": {
         title: "Service Website Development Using WordPress & Elementor",
         desc: "Built a professional business website using WordPress and Elementor Pro, including homepage, service pages, about section, and contact form.",
