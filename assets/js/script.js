@@ -1,4 +1,39 @@
 const projectsData = {
+    "nationalwildlife": {
+        title: "National Wildlife Management Website",
+        desc: "Designed and developed a full service website for National Wildlife Management — a UK-based professional wildlife control company serving rural estates, commercial sites, and private landowners. The client needed a website that communicated authority, technical expertise, and trust.",
+        client: "National Wildlife Management",
+        category: "WordPress",
+        url: "testing.machxdigital.com",
+        image: "assets/images/Nationalwildlife.png",
+        stack: ["WordPress", "Elementor Pro", "PHP", "HTML5", "CSS3", "JavaScript"],
+        scope: [
+            "Full WordPress website designed and built with Elementor Pro",
+            "Custom hero section with cinematic background and dual CTA buttons",
+            "How It Works section — 3-step process layout",
+            "Services pages covering precision wildlife control",
+            "Projects / case studies section showcasing real field work",
+            "On-page SEO — meta titles, descriptions, structured content hierarchy"
+        ]
+    },
+    "primaljetwashing": {
+        title: "Primal Jet Washing Website",
+        desc: "Designed and developed a full service website for Primal Jet Washing — a premium exterior cleaning and surface restoration company based in Berkshire, UK. The client needed a high-impact, trust-building website that converts visitors into free quote requests immediately on arrival.",
+        client: "Primal Jet Washing",
+        category: "WordPress",
+        url: "first.machxdigital.com",
+        image: "assets/images/jetwash.png",
+        stack: ["WordPress", "Elementor Pro", "PHP", "HTML5", "CSS3", "JavaScript"],
+        scope: [
+            "Full WordPress website designed and built with Elementor Pro",
+            "Bold cinematic hero section with power washing action photography",
+            "Services section covering driveways, patios, and commercial property cleaning",
+            "Why Us section with trust signals and service guarantees",
+            "Contact Us page with free quote request form",
+            "Custom brand colours applied consistently throughout",
+            "On-page SEO optimised for local Berkshire search terms"
+        ]
+    },
     "mahad": {
         title: "Mahad International Traders B2B Export Website",
         desc: "Designed and developed the complete website for Mahad International Traders, a Pakistan-based export company supplying basmati rice, pink salt, table salt, and industrial salt to international buyers. The goal was to create a credible, professional B2B web presence that converts international wholesale visitors into quote requests.",
